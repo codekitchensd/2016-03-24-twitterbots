@@ -8,9 +8,9 @@
   },
   "author": "codekitchensd",
   "license": "ISC",
-  "dependencies":
-  {
-  	"twit" : "1.x",
-  	 "tracery-grammar": "2.x"
+  "dependencies": {
+    "moment": "^2.12.0",
+    "tracery-grammar": "2.x",
+    "twit": "1.x"
   }
 }
