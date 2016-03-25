@@ -12,6 +12,11 @@
    * More at [#botALLY](https://twitter.com/search?f=tweets&vertical=default&q=%23botALLY&src=tyah)...
 * Explain what we're going to make!   
   (SPOILER: it's a twitter bot with CheapBotsDoneQuick using the Tracery language.)
+
+> :tada: Here are bots that we made this meeting!
+_Edit this file with your name and bot name and submit it as a Pull Request..._
+Colin - [@shallowmindsd](https://twitter.com/shallowmindsd) - tweet with the hashtag #twitterspiritanimal and it will respond!
+_Your Bot Here_
  
 ## Sign up for a Twitter account
 
@@ -108,7 +113,7 @@ Tracery has **several built-in modifiers:**
 | Modifier | What it does | Example |
 | ---      | ---          | ---     |
 | `.capitalize` | capitalizes the first letter | `Aardvark` |
-| `.capitalizeAll` | Capitalizes Each Word In The Phrase | `Angry Aardvaark` |
+| `.capitalizeAll` | Capitalizes Each Word In The Phrase | `Angry Aardvark` |
 | `.s` | pluralizes the word* | `aardvarks` |
 | `.a` | adds an `a` or `an` in the front | `an aardvark` or `a horse` |
 | `.ed` | puts verb in past tense by adding -`ed` to the end | `#verb.ed#` --> `bounced` |
