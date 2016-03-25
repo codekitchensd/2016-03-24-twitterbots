@@ -18,6 +18,7 @@
 _Please edit this file with your name and bot name, and submit it as a Pull Request..._
 
 * Colin - [@shallowmindsd](https://twitter.com/shallowmindsd) - tweet with the hashtag #twitterspiritanimal and it will respond!   
+* Kyle - [@SacredGeoBot](https://twitter.com/SacredGeoBot) - sacred geometry generator as a Twitter bot (still working on making the generator more interesting). Code can be found [here](https://github.com/kylestew/SacredGeomBot).
 * _Your Bot Here_
  
 ## Sign up for a Twitter account
