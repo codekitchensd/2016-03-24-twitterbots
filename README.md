@@ -16,8 +16,9 @@
 > :tada: Here are bots that we made this meeting!
 
 _Edit this file with your name and bot name and submit it as a Pull Request..._
-Colin - [@shallowmindsd](https://twitter.com/shallowmindsd) - tweet with the hashtag #twitterspiritanimal and it will respond!
-_Your Bot Here_
+
+* Colin - [@shallowmindsd](https://twitter.com/shallowmindsd) - tweet with the hashtag #twitterspiritanimal and it will respond!   
+* _Your Bot Here_
  
 ## Sign up for a Twitter account
 
