@@ -108,7 +108,7 @@ Tracery has **several built-in modifiers:**
 | Modifier | What it does | Example |
 | ---      | ---          | ---     |
 | `.capitalize` | capitalizes the first letter | `Aardvark` |
-| `.capitalizeAll` | puts the word in ALL CAPS | `AARDVARK` |
+| `.capitalizeAll` | Capitalizes Each Word In The Phrase | `Angry Aardvaark` |
 | `.s` | pluralizes the word* | `aardvarks` |
 | `.a` | adds an `a` or `an` in the front | `an aardvark` or `a horse` |
 | `.ed` | puts verb in past tense by adding -`ed` to the end | `#verb.ed#` --> `bounced` |
