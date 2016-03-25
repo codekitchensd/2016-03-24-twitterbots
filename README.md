@@ -14,6 +14,7 @@
   (SPOILER: it's a twitter bot with CheapBotsDoneQuick using the Tracery language.)
 
 > :tada: Here are bots that we made this meeting!
+
 _Edit this file with your name and bot name and submit it as a Pull Request..._
 Colin - [@shallowmindsd](https://twitter.com/shallowmindsd) - tweet with the hashtag #twitterspiritanimal and it will respond!
 _Your Bot Here_
