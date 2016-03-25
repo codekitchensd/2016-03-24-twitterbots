@@ -13,9 +13,9 @@
 * Explain what we're going to make!   
   (SPOILER: it's a twitter bot with CheapBotsDoneQuick using the Tracery language.)
 
-> :tada: Here are bots that we made this meeting!
+> :tada: **Here are bots that we made this meeting!**
 
-_Edit this file with your name and bot name and submit it as a Pull Request..._
+_Please edit this file with your name and bot name, and submit it as a Pull Request..._
 
 * Colin - [@shallowmindsd](https://twitter.com/shallowmindsd) - tweet with the hashtag #twitterspiritanimal and it will respond!   
 * _Your Bot Here_
@@ -57,11 +57,12 @@ We'll be using a language called [**Tracery**](http://tracery.io) by [Kate Compt
 To understand it, if you're new to programming, you need to understand a few terms:
 * We're working with three **data types**: strings, arrays, and objects.
    * **Strings** are text. A string is a sequence of text characters between two quotation marks, 
-     like `"Hello, I am a string."` or `"C0d3 k1tch3n IS M@DD Ph47 yo!!"` or `"boo"` or `"$22.50"`. 
+     like `"Hello, I am a string."` or `"C0d3 k1tch3n IS M@DD Ph47 yo!!"` or `"boo"` or `"$22.50"` or `"🍕"`. 
       * If you want to put a `"` inside a string, you'll need to _escape_ it with a `\`, like so: 
-        `"Where is this so-called \"sasquatch,\" Mr. Mulder?"`
-      * If you want to add a tab, use `\t` inside your string
-      * If you want to add a return/new line, use `\n` inside your string
+        `"Where is this so-called \"sasquatch,\" Mr. Mulder?"`.
+      * If you want to add a tab, use `\t` inside your string.
+      * If you want to add a return/new line, use `\n` inside your string.
+      * :sparkles: *You can put emoji in strings!* :sparkles: If you're on a Mac, try pressing `control+command+[space bar]` to pop up an emoji picker.
    * **Arrays** are lists. An array is a comma-separated collection of data (like strings) in between brackets `[ ]`, 
      like `["apples","bananas","clementines"]` or `["zebras","alphabet","$14.00","Hello, Jane."]`. 
    * **Objects** are groups of **keys** (names) and **values** (data or other computer code). 
@@ -224,14 +225,26 @@ For example:
 #### Generating images 
 
 If you want to take it to the next level, you can write code to generate images with CheapBotsDoneQuick!   
-These images are made with **Scalable Vector Graphics** or **SVG**, which is an XML markup (text file) that describes shapes and lines, along with their positions, rotation, size, colors, shadows, etc.   
+These images are made with **Scalable Vector Graphics** or **SVG**, which is an XML markup (text file) that describes shapes and lines, along with their positions, rotation, size, colors, shadows, etc. 
+
+SVG can be used as an image file in an `<img src="something.svg">` tag—and to answer one Code Chef's question, we're not sure if the twitter API supports SVG natively, or if it takes in the SVG and autoconverts to PNG, or if CheapBotsDoneQuick converts it for you, but _regardless:_ you can use SVG to generate an image that CBDQ will tweet.
 
 To learn more about SVG, check out these tutorials:   
 * <https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial>
 * <http://tutorials.jenkov.com/svg/index.html>
 * <http://svgtutorial.com/>
+* <https://css-tricks.com/using-svg/>
 
 For examples of SVG twitterbots, look at the source code for Soft Landscapes   
 <http://cheapbotsdonequick.com/source/softlandscapes>   
 or Tiny Space Adventures   
 <http://cheapbotsdonequick.com/source/tinyadv>   
+
+#### Responding to tweets
+
+To reply to tweets, you'll need to run Node.js on your computer and have it interface with the Twitter API. 
+
+GitHub hosts the source code of many conversational twitterbots ([Darius Kazemi's list of repos](https://github.com/dariusk?tab=repositories) is a good place to start) if you want to look at other people's code. We've set up an advanced tutorial using Twit and Tracery in this repository, right over here:   
+<https://github.com/codekitchensd/2016-03-24-twitterbots/tree/master/self-hosted-example>
+
+Thanks for coming! Please send us links to the twitterbots you've made!
